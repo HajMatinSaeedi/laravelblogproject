@@ -1,0 +1,45 @@
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+.posts {
+    padding: 40px 0;
+    text-align: center;
+    background-color: white;
+    margin: 20px 0;
+}
+
+.posts h2 {
+    margin-top: 0;
+}
+
+.post-grid {
+    display: flex;
+    flex-wrap: inherit;
+    justify-content: start;
+    gap: 20px;
+}
+
+.post {
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 1 1 calc(33.33% - 10px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.post h3 {
+    margin: 10px 0;
+}
+
+.post .price {
+    color: #4CAF50;
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.post .details {
+    padding: 10px;
+    color: #333;
+}
